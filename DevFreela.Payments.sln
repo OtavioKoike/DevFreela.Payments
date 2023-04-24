@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFreela.Payments.API", "DevFreela.Payments.API\DevFreela.Payments.API.csproj", "{9B92D1E1-0D43-40FD-88A5-3909A62B7C71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFreela.Payments.Application", "DevFreela.Payments.Application\DevFreela.Payments.Application.csproj", "{7F95C3D6-9D3E-40C9-94DC-4A7AE6A13AD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B92D1E1-0D43-40FD-88A5-3909A62B7C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B92D1E1-0D43-40FD-88A5-3909A62B7C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B92D1E1-0D43-40FD-88A5-3909A62B7C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B92D1E1-0D43-40FD-88A5-3909A62B7C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F95C3D6-9D3E-40C9-94DC-4A7AE6A13AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F95C3D6-9D3E-40C9-94DC-4A7AE6A13AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F95C3D6-9D3E-40C9-94DC-4A7AE6A13AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F95C3D6-9D3E-40C9-94DC-4A7AE6A13AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AA26173-7FE3-4020-BE5E-D020645A8FB8}
+	EndGlobalSection
+EndGlobal
