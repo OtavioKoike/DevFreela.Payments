@@ -1,3 +1,4 @@
+using DevFreela.Payments.API.Consumers;
 using DevFreela.Payments.Application.Services.Implementations;
 using DevFreela.Payments.Application.Services.Interfaces;
 
@@ -5,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // É possivel criar as injeções de Dependencias em uma classe especifica de extensions
 builder.Services.AddScoped<IPaymentService, PaymentService>();
+// Hosted Service -> Rodar debaixo dos panos
+builder.Services.AddHostedService<ProcessPaymentConsumer>();
 
 // Add services to the container.
 

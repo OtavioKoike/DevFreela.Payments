@@ -7,11 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DevFreela.Payments.Application\DevFreela.Payments.Application.csproj" />
+    <ProjectReference Include="..\DevFreela.Payments.Core\DevFreela.Payments.Core.csproj" />
   </ItemGroup>
 
 </Project>
